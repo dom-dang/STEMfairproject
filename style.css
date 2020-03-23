@@ -2,18 +2,21 @@
 
 body {
   font-family: 'Lora', serif;
+  background:#ccffff;
+}
+
+p {
+  font-family: 'Amatic SC', cursive;
   font-size: 17px;
-  margin: 2em;
-  margin: 
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 h1 {
   font-style: italic;
   color: #373fff;
 }
-body {
-    background:#ccffff;
-}
+
 li{
     font-size: 18px;
     font-family:"Trebuchet MS"; 

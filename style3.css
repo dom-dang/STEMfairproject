@@ -1,6 +1,21 @@
+/* CSS files add styling rules to your content */
+
 body {
-    background:#ccffff;
+  font-family: 'Lora', serif;
+  background:#ccffff;
 }
+
+p {
+  font-size: 17px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
 li{
     font-size: 18px;
     font-family:"Trebuchet MS"; 
@@ -27,15 +42,4 @@ li a:hover:not(.active) {
 }
 .active{
     background:#009999;
-}
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-h1 {
-  font-style: italic;
-  color: #373fff;
 }

@@ -1,8 +1,10 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Lora', serif;
+  font-size: 17px;
   margin: 2em;
+  margin: 
 }
 
 h1 {

@@ -6,8 +6,8 @@ body {
 }
 
 p {
-  font-family: 'Amatic SC', cursive;
-  font-size: 17px;
+  font-family: 'Lora', serif;
+  font-size: 18px;
   margin-right: 100px;
   margin-left: 100px;
 }
@@ -15,6 +15,7 @@ p {
 h1 {
   font-style: italic;
   color: #373fff;
+  font-size: 30px;
 }
 
 li{

@@ -34,6 +34,9 @@ ol {
   line-height: 1.5;
   padding: 3px;
 }
+.materials {
+  list-style-type: circle;
+}
 ul{
   list-style-type: none;
   font-family: 'Lora', serif;
@@ -43,9 +46,7 @@ ul{
   line-height: 1.5;
   padding: 3px;
 }
-.list{
-  list-style-type: disc;
-}
+
 .navbar {
   overflow: hidden;
   background-color: #ffdb4d;

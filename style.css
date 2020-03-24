@@ -2,7 +2,7 @@
 
 body {
   font-family:"Trebuchet MS";
-  background:#ccffff;
+  background:#f2f2f2;
 }
 
 p {
@@ -27,7 +27,7 @@ h3 {
 
 .navbar {
   overflow: hidden;
-  background-color: #009999;
+  background-color: #ffdb4d;
   font-family: 'Lora', serif;
 }
 
@@ -58,7 +58,7 @@ h3 {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: #00b3b3;
+  background-color: #ffe680;
 }
 
 .dropdown-content {
@@ -79,7 +79,12 @@ h3 {
   display: block;
   text-align: left;
 }
-
+div a:hover:not(.active) {
+    background:#ffe680;
+}
+.active{
+    background:#aab9c8;
+}
 .dropdown-content a:hover {
   background-color: #ddd;
 }

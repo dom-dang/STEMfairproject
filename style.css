@@ -82,7 +82,7 @@ h1 {
   display: block;
 }
 
-div.gallgery {
+div.gallery {
   margin:5px;
   border: 1px solid #ccc;
   float:left;
@@ -91,11 +91,11 @@ div.gallgery {
 div.gallery:hover{
   border: 1px solid #777;
 }
-/*div.gallery img{
+div.gallery img{
   width: 80%;
   height: auto;
 }
-*/ padding 15px;
+ padding 15px;
   text-align: center;
 }
 

@@ -122,4 +122,25 @@ h1 {
   padding: 8px 12px;
   position: absolute;
   top:0;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.demo {
+  opacity: 0.6;
+}
+.active, .demo:hover {
+  opacity: 1;
 }t: auto;

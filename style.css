@@ -1,12 +1,12 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'Muli', sans-serif;
+  font-family:"Trebuchet MS";
   background:#ccffff;
 }
 
 p {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 18px;
   margin-right: 100px;
   margin-left: 100px;
@@ -22,7 +22,7 @@ h1 {
 .navbar {
   overflow: hidden;
   background-color: #009999;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 .navbar a {

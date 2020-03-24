@@ -43,6 +43,10 @@ td, th {
   padding: 8px;
 }
 
+table, th, td {
+  border: 3px solid black;
+}
+
 tr:nth-child(even) {
   background-color: #dddddd;
 }

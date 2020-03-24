@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'Lora', serif;
+  font-family:"Trebuchet MS";
   background:#ccffff;
 }
 
@@ -15,6 +15,7 @@ p {
 h1 {
   font-style: italic;
   color: #373fff;
+  font-size: 30px;
 }
 
 .navbar {

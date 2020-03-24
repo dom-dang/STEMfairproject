@@ -11,7 +11,7 @@ p {
   margin-right: 400px;
   margin-left: 300px;
   line-height: 1.5;
-  padding: 3px;
+  padding: 2px;
 }
 
 h1 {
@@ -25,24 +25,22 @@ h3 {
   margin-right: 400px;
   margin-left: 300px;
 }
-}
+
 ol {
- ont-family: 'Lora', serif;
-  font-size: 18px;
-  margin-right: 400px;
-  margin-left: 300px;
-  line-height: 1.5;
-  padding: 3px;
-}
-.materials {
-  list-style-type: circle;
-}
-ul{
-  list-style-type: none;
   font-family: 'Lora', serif;
   font-size: 18px;
   margin-right: 400px;
-  margin-left: 300px;
+  margin-left: 360px;
+  line-height: 1.5;
+  padding: 3px;
+}
+
+
+ul{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin-right: 400px;
+  margin-left: 150px;
   line-height: 1.5;
   padding: 3px;
 }

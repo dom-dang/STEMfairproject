@@ -18,7 +18,21 @@ h1 {
   font-size: 30px;
 }
 
-li{
+
+.navbar {
+  overflow:hidden;
+  background-color
+}
+
+
+
+
+
+
+
+
+
+/*li{
     font-size: 18px;
     font-family:"Trebuchet MS"; 
 }
@@ -45,3 +59,4 @@ li a:hover:not(.active) {
 .active{
     background:#009999;
 }
+*/

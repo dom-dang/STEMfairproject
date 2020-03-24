@@ -14,26 +14,25 @@
   </head>  
   
   <body>
-   <li>
-     <center> <li> <a href="index.html"> Homepage</a> </li>
-     <li> <a href="page2.html">Choosing a Project</a></li>
-     <li><a href = "page3.html"> Literary Research</a> </li>
-     <!--> <li class = "dropdown"> 
-       <a href= "javascript: void(0)"
-  class = "dropbtn">Experimental Research </a>
-       <div class = "dropdown-content">
-         <a href = "#"> Variables</a>
-         <a href = "#"> Materials </a>
-         <a href="#"> Procedure</a>
-       </div>
-      </li> -->
-     <li><a class="active" href = "page4.html"> Experimental Research</a></li>
-     <li> <a href = "page5.html"> Daily Logs </a> </li> </center>
-       
-    </li>  
-    
-    
-    <h1>Experimental Research</h1>
+     <div class = "navbar">
+      <center> <a href ="index.html"> Homepage</a>
+      <a href="page2.html">Choosing a Project</a>
+      <a href = "page3.html"> Literary Research</a>
+      <div class = "dropdown">
+      <button class="dropbtn" onclick="myFunction()"> Experimental Research
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="page-Variables.html"> Variables</a>
+        <a href="page-Materials.html"> Materials</a>
+        <a class="active" href="page-Procedures.html"> Procedure</a>
+        </div>
+      </div>
+      <a href = "page5.html"> Daily Logs </a> </center>
+    </div>
+        
+        
+    <h1>Procedure</h1>
     
     <p>
       The United States utilized approximately 15 billion kilograms of road salt during the
@@ -61,8 +60,3 @@ deicers and the consequences they have on nature.
     <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
-
-
-<!--> https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar_click
-https://www.w3schools.com/howto/howto_js_dropdown.asp
-https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar --> 

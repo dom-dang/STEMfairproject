@@ -14,16 +14,25 @@
   </head>  
   
   <body>
-   <li> 
-            <center><a href="index.html"> Homepage</a>
-            <a href="page2.html">Choosing a Project</a>
-            <a href = "page3.html"> Literary Research</a>
-            <a href = "page4.html"> Experimental Research</a>
-            <a class="active" href = "page5.html"> Daily Logs </a> </center>
-        </li>
+     <div class = "navbar">
+      <center> <a href ="index.html"> Homepage</a>
+      <a href="page2.html">Choosing a Project</a>
+      <a href = "page3.html"> Literary Research</a>
+      <div class = "dropdown">
+      <button class="dropbtn" onclick="myFunction()"> Experimental Research
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="page-Materials.html"> Materials</a>
+        <a class="active" href="page-Procedure.html"> Procedure</a>
+        <a href="page-Variables.html"> Variables</a>
+        </div>
+      </div>
+      <a href = "page5.html"> Daily Logs </a> </center>
+    </div>
         
         
-    <h1>Daily Logs</h1>
+    <h1>Procedure</h1>
     
     <p>
       The United States utilized approximately 15 billion kilograms of road salt during the

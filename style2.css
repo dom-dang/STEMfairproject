@@ -10,11 +10,13 @@ p {
   font-size: 18px;
   margin-right: 400px;
   margin-left: 300px;
+  line-height: 1.5;
+  padding: 3px;
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: #1a8cff;
   font-size: 30px;
 }
 h3 {

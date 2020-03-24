@@ -27,12 +27,21 @@ h3 {
 }
 }
 ol {
-  margin-right: 75px;
-  margin-left: 75px;
+ ont-family: 'Lora', serif;
+  font-size: 18px;
+  margin-right: 400px;
+  margin-left: 300px;
+  line-height: 1.5;
+  padding: 3px;
 }
-ul {
-  margin-right: 75px;
-  margin-left: 75px;
+ul{
+  list-style-type: none;
+  ont-family: 'Lora', serif;
+  font-size: 18px;
+  margin-right: 400px;
+  margin-left: 300px;
+  line-height: 1.5;
+  padding: 3px;
 }
 
 .navbar {

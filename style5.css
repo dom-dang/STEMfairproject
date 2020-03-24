@@ -7,15 +7,23 @@ body {
 
 p {
   font-family: 'Lora', serif;
-  font-size: 17px;
-  margin-right: 100px;
-  margin-left: 100px;
+  font-size: 18px;
+  margin-right: 400px;
+  margin-left: 300px;
 }
+
 h1 {
   font-style: italic;
   color: #373fff;
   font-size: 30px;
 }
+h3 {
+  font-family:"Trebuchet MS";
+  font-size: 20px;
+  margin-right: 400px;
+  margin-left: 300px;
+}
+
 
 .navbar {
   overflow: hidden;

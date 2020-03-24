@@ -36,14 +36,16 @@ ol {
 }
 ul{
   list-style-type: none;
-  ont-family: 'Lora', serif;
+  font-family: 'Lora', serif;
   font-size: 18px;
   margin-right: 400px;
   margin-left: 300px;
   line-height: 1.5;
   padding: 3px;
 }
-
+.list{
+  list-style-type: disc;
+}
 .navbar {
   overflow: hidden;
   background-color: #ffdb4d;

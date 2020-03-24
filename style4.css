@@ -11,9 +11,20 @@ p {
   margin-right: 75px;
   margin-left: 75px;
 }
+ol {
+  margin-right: 75px;
+  margin-left: 75px;
+}
+ul {
+  margin-right: 75px;
+  margin-left: 75px;
+}
 h1 {
   font-style: italic;
   color: #373fff;
+}
+h3{
+  font-family:"Trebuchet MS";
 }
 
 .navbar {

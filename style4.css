@@ -27,8 +27,13 @@ h3 {
 }
 
 
-.right-photo{
-  float
+.right-photos{
+  float: right;
+  padding: 5px;
+}
+.margin-photos{
+  margin-left:300px;
+  margin-right:400px;
 }
 
 ol {

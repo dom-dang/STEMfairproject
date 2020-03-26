@@ -76,19 +76,19 @@ function buttonTen(){
 
 //November notes
 function buttonEleven() {
-  document.getElementById("demoThree").innerHTML="Today I passed in my MSEF forms and research plan! I finalized everything and got all the forms filled out. After school, I updated my experimental Research section by adding a paragraph that includes my experimental questions and I added another section for hypothesis. I also finished copying all my notes into my logbook. The next step after I get back about my research plan is to gather materials and start conducting my experiments.";
+  document.getElementById("demoThree").innerHTML="11/4/19 Today I passed in my MSEF forms and research plan! I finalized everything and got all the forms filled out. After school, I updated my experimental Research section by adding a paragraph that includes my experimental questions and I added another section for hypothesis. I also finished copying all my notes into my logbook. The next step after I get back about my research plan is to gather materials and start conducting my experiments.";
 }
 function buttonTwelve(){
-  document.getElementById("demoThree").innerHTML=
+  document.getElementById("demoThree").innerHTML="11/14/19 Today we had no school. During my one day break, I worked on my research paper and getting all my notes in my logbook. Unfortuantely, I messed up my work cited page and forgot a couple of papers I used so it is a little messy but not that everythign is done, it looks neater, I finished almost all of my research, just adding some transitions and in-text citations. After that, I need to write my conclusion and do a final very strict edit so I can have a concise research paper, I also have to start experimenting so my mom and I are going to gather materials these upcoming weeks.";
 }
 function buttonThirteen(){
-  document.getElementById("demoThree").innerHTML=
+  document.getElementById("demoThree").innerHTML= "I finished my research paper! It is very long but I did some editing and took out parts of the paper that did not need to be in it. I edited most of the grammar and added many in-text citations to make sure I completed everything on the rubric. I still have to go back to the study guide and make sure I did everything in the rubric. I also have to start collecting materials for my experiments so I can take photos andp ut them in my logbook. For the 1st notebook check, I need to have some proof of experimentation so I am going to copy down my naterials and take photos of them. I need to buy CMA and the beet juice deicer.";
 }
 
 
 //December notes 
 function buttonFourteen(){
-  document.getElementById("demoFour").innerHTML=
+  document.getElementById("demoFour").innerHTML="I took all the edits Ms. Kymissis have me in my research paper and changed them in my paper. I think I am done with my paper but I want to check the rubric again to make suer I have everything a final time before submitting it. I updated my logbook as well so everything is set for the notebook check in a couple of weeks. I also have to start collecting all of my materials because I plan to start testing during Christmas break and I need to order materials online.";
 }
 function buttonFifteen(){
   document.getElementById("demoFour").innerHTML=

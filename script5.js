@@ -33,10 +33,8 @@ function showSlides(n){
   for (i=0; i<slides.length; i++){ 
     slides[i].style.display = "none";
   }
-  
+  slides[slideIndex-1].style.display = "block";
 }
-
-
 
 
 //September notes
@@ -56,7 +54,7 @@ function buttonFour(){
   document.getElementById("demo").innerHTML = "9/28/19 The project proposal is due on Monday next week. I edited my propsal and added a few changes I found from copying my propsal in my logbook. Hopefully Ms. Kymissis can find some errors so I can fix and consult her for advice. After the proposal is passed in, I need to make a list and put in my logbook the variables and controlled variables. Other than that, I have to start looking for deicing substances and start gathering materials."
 }
 
-//November notes
+//October notes
 function buttonFive(){
   document.getElementById("demoTwo").innerHTML="10/16/19 I got my proposal back today. I got approved! Mrs. Kymissis recommended doing only one experiment but I think that is too simple. I want to try doing two experiments. The only constraint is money because certain deicers are expensive. Beet juice and rock sand is cheap on Amazon and I use salt normally during snow storms. CMA is very expensive ($30 a bag) so hopefully I can find something cheaper. The next step is to type out my hypothesis, controls, variables, and procedure. I already went in-dept for my procedure in my proposal so i just have to put it in number format and add a little bit more detail. After I finish that, I am going to start reseraching and finding papers to read."
 }
@@ -70,8 +68,8 @@ function buttonEight(){
   document.getElementById("demoTwo").innerHTML="10/28/19 Today we went to the computer lab so Ms. Kymissi could explain how researching works and what she is looking for in our logbooks in regards to research. I have many sources and the resarch behind them but I need to find more peer reviewed journals and experiments. I also need to research about other parts of the experiment including concentrations of deicing substance in the snow and germination. Mrs. Kymissis also handed out the MSEF forms for us to fill out. This is pretty exciting to fill out state science fiar forms! I also need to figure out and finalize my experimental procedure for the Resaerch Plan due next Monday. I need to figure out if I am doing an every 5 minute test on the melting of ice with deicers or a total time it takes to melt data. That would impact the tables and my data slightly so I need to decide that soon. my next steps are continuing the research and finalize the procedure.";
 }
 function buttonNine(){
-  document.getElementById("demonTwo").innerHTML="10/29/19 Today I took more notes on how deicing works more specifically the science behind deicers and the factors that are important to making a deicer an efficient deicer. I got back my procedure, variables, and hypothesis and I have a lot to fix including numbers. ON my research plan, I added tables, which was missing, and changed the wording so all the steps have similar verb usage. I played around with the dilution amount of rearranged the steps overall. Then, I added the final paragraph regarding safety, conclusions, and applications, to my research plan. Finally, I copied some notes down in my logbook so I wouldn't get too behind on my paper."
+  document.getElementById("demoTwo").innerHTML="10/29/19 Today I took more notes on how deicing works more specifically the science behind deicers and the factors that are important to making a deicer an efficient deicer. I got back my procedure, variables, and hypothesis and I have a lot to fix including numbers. ON my research plan, I added tables, which was missing, and changed the wording so all the steps have similar verb usage. I played around with the dilution amount of rearranged the steps overall. Then, I added the final paragraph regarding safety, conclusions, and applications, to my research plan. Finally, I copied some notes down in my logbook so I wouldn't get too behind on my paper."
 }
 function buttonTen(){
-  document.getElementById("demonTwo").innerHTML="10/31/19 I finished taking notes on all my sources today! I probably will find more but I think I really understand deicing and the positive and negative effects of different deicers. Although I finished taking notes, I still have to copy my notes into my log notebook so I can keep track of my notes. Additionally, I have to finish my research plan and finalize (like actually finalize) all my numbers and details.";
+  document.getElementById("demoTwo").innerHTML="10/31/19 I finished taking notes on all my sources today! I probably will find more but I think I really understand deicing and the positive and negative effects of different deicers. Although I finished taking notes, I still have to copy my notes into my log notebook so I can keep track of my notes. Additionally, I have to finish my research plan and finalize (like actually finalize) all my numbers and details.";
 }

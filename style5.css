@@ -105,7 +105,7 @@ ul {list-style-type:none;}
 .month{
   padding: 40px 10px;
   width: 100%;
-  background: #1abc9c;
+  background: #1a8cff;
   text-align: center;
 }
 
@@ -124,15 +124,47 @@ ul {list-style-type:none;}
 }
 
 /* previous button inside month header */
+.cursor {
+  cursor: pointer;
+}
+
 .month .prev {
   float:left;
   padding-top: 10px;
+  float: right;
+  padding-top: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  webkit-user-select: none;
 }
 /* next button */
 .month .next {
   float: right;
   padding-top: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  webkit-user-select: none;
 }
+
+  
 
 /* Weekdays (mon-sun) */
 .weekdays {
@@ -168,3 +200,15 @@ ul {list-style-type:none;}
   color: white;
 }
 
+/*
+.button {
+  background-color: #1a8cff; 
+  border: none;
+  color: #777;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+*/

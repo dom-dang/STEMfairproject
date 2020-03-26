@@ -103,31 +103,48 @@ div a:hover:not(.active) {
 ul {
   list-style-type: none;
 }
+.container{
+  margin-left: 300px;
+}
 
 /*month header */
 
 .month {
   padding: 15px 0px;
-  width: 100%;
+  width: 70%;
   background: #1a8cff;
   text-align: center;
 }
 .monthTwo {
   padding: 15px 0px;
-  width: 100%;
+  width: 70%;
   background: #1a8cff;
   text-align: center;
 }
 .monthThree {
   padding: 15px 0px;
-  width: 100%;
+  width: 70%;
   background: #1a8cff;
   text-align: center;
 }
 
 .monthFour {
   padding: 15px 0px;
-  width: 100%;
+  width: 70%;
+  background: #1a8cff;
+  text-align: center;
+}
+
+.monthFive {
+  padding: 15px 0px;
+  width: 70%;
+  background: #1a8cff;
+  text-align: center;
+}
+
+.monthSix {
+  padding: 15px 0px;
+  width: 70%;
   background: #1a8cff;
   text-align: center;
 }
@@ -180,6 +197,30 @@ ul {
   letter-spacing: 3px;
 }
 
+.monthFive ul {
+  margin: 0;
+  padding: 0;
+}
+
+.monthFive ul li {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.monthSix ul {
+  margin: 0;
+  padding: 0;
+}
+
+.monthSix ul li {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 
 /* previous button inside month header 
 .cursor {
@@ -217,36 +258,34 @@ ul {
 /* Weekdays (mon-sun) */
 .weekdays {
   margin: 0;
-  padding: 10px 0;
+  padding: 15px 0;
+  width: 70%;
   background-color: #ddd;
 }
 
 .weekdays li {
   display: inline-block;
-  width: 13.6%;
+  width: 10%;
   color: #666;
   text-align: center;
 }
 
 .days {
-  padding: 10px 0;
+  padding: 15px 0;
+  width: 70%;
   background: #eee;
   margin: 0;
 }
 .days li {
   list-style-type: none;
   display: inline-block;
-  width: 13.6%;
+  width: 10%;
   text-align: center;
   margin-bottom: 5px;
   font-size: 15px;
   color: #777;
 }
-.days li .active {
-  padding: 5px;
-  background: #1abc9c;
-  color: white;
-}
+
 
 /*
 .button {

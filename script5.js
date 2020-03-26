@@ -17,3 +17,10 @@ window.onclick = function(e) {
     }
   }
 }
+function buttonOne(){
+  document.getElementById("demo").innerHTML = "Today I set up my logbook. I still need tabs and to organize it.";
+}
+
+function buttonTwo(){
+  document.getElementById("demo").innerHTML = "";
+}

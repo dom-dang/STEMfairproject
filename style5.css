@@ -150,7 +150,7 @@ ul {list-style-type:none;}
 
 .days {
   padding: 10px 0;
-  backgroundL #eee;
+  background: #eee;
   margin: 0;
 }
 .days li {
@@ -159,7 +159,7 @@ ul {list-style-type:none;}
   width: 13.6%;
   text-align: center;
   margin-bottom: 5px;
-  font-size: 12px;
+  font-size: 15px;
   color: #777;
 }
 .days li .active {
@@ -167,3 +167,4 @@ ul {list-style-type:none;}
   background: #1abc9c;
   color: white;
 }
+

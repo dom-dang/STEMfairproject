@@ -144,14 +144,14 @@ function buttonNThirty(){
 
 //February Notes
 function buttonThirtyOne(){
-  
+  document.getElementById("demoSix").innerHTML="I finished my script today. I added the conclusion and data anyalysis and printed out the final script. I know i should not sound so rehearsed and scripted but I like having an outline to follow and to guide me through my presentation. I also looked for more photos to put on my board because with the smal;er data tables, I have more room for some photos of the testing. Tomorrow, I will finish the board and start practicing my presentation.";
 }
 function buttonThirtyTwo(){
-  
+  document.getElementById("demoSix").innerHTML="Today I did a couple of retouchings on my board because I noticed a couple of bublles that popped up in some of the slides. I also redid the title so it looked more inline with each other and had less bubbles. I taped down all the final graphs and data tables and the column of photographs in the middle. i was not able to print out the photos for the extra space under the data tables so I will do that for tomorrow. I also practiced my presentation. Finally I did a notebook check for my logbook to see if everything is in my logbook.";
 }
 function buttonThirtyThree(){
-  
+  document.getElementById("demoSix").innerHTML="Today I printed out the photos and the captions for my graphs and data tables (learned in class that I needed cpations for everything on my board). I taped all the cpations and new photost on my board, so my board is finally finished! I reread my abstract and I learned that I messed up my old and new versions of my hypothesis so I have to fix that before tomorrow when everything is due.";
 }
 function buttonThirtyFour(){
-  
+  document.getElementById("demoSix").innerHTML="Today is the final day until everything is due. I finished my board but I have to bring it in early tomorrow because of quiz bowl practice. I have to do a final thorough check of my logbook and make sure I print out my abstract to pass in. I need to practice my presentation for t he mini-science fair in class and for the real fair on Saturday. Note to self: Good luck! You got this!!!";
 }

@@ -131,18 +131,13 @@ ul {list-style-type:none;}
 .month .prev {
   float:left;
   padding-top: 10px;
-  float: right;
   padding-top: 10px;
   cursor: pointer;
-  position: absolute;
   top: 40%;
   width: auto;
-  padding: 16px;
-  margin-top: -50px;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
   user-select: none;
   webkit-user-select: none;
 }
@@ -151,15 +146,11 @@ ul {list-style-type:none;}
   float: right;
   padding-top: 10px;
   cursor: pointer;
-  position: absolute;
   top: 40%;
   width: auto;
-  padding: 16px;
-  margin-top: -50px;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
   user-select: none;
   webkit-user-select: none;
 }

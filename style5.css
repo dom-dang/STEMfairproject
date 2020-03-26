@@ -137,7 +137,7 @@ ul {list-style-type:none;}
 /* Weekdays (mon-sun) */
 .weekdays {
   margin: 0;
-  paddingL 10px; 0;
+  padding: 10px 0;
   background-color: #ddd;
 }
 

@@ -265,7 +265,7 @@ ul {
 
 .weekdays li {
   display: inline-block;
-  width: 10%;
+  width: 13.6%;
   color: #666;
   text-align: center;
 }
@@ -279,7 +279,7 @@ ul {
 .days li {
   list-style-type: none;
   display: inline-block;
-  width: 10%;
+  width: 13.6%;
   text-align: center;
   margin-bottom: 5px;
   font-size: 15px;

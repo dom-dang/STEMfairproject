@@ -102,3 +102,56 @@ function buttonSeventeen(){
 function buttonEighteen(){
     document.getElementById("demoFour").innerHTML="12/26/19 Today I finished my final set for my first experiment testing deicers efficiency. The ice was much better this time and I finished without any issue. An observation I made during all three of these sets was that the containers with slanted ice usually had a faster start melting rate most likely because the deicer could pool in one specific area and could melt a smaller surface area. Although that is a realy life example of ice in the streets, not all the containers were slanted so that could have impacted my resukts. After testing, I put all the data into the tables and made a graph. I finished calculating the averages and labelling the graphs and will start on my logbook status #2 soon.";
 }
+
+//January notes
+function buttonNineteen(){
+  document.getElementById("demoFive").innerHTML="
+}
+function buttonTwenty(){
+  ddocument.getElementById("demoFive").innerHTML="
+}
+function buttonTwentyOne(){
+  document.getElementById("demoFive").innerHTML="
+}
+
+function buttonTwentyTwo(){
+  ddocument.getElementById("demoFive").innerHTML="
+}
+function buttonTwentyThree(){
+  document.getElementById("demoFive").innerHTML="
+}
+function buttonTwentyFour(){
+  ddocument.getElementById("demoFive").innerHTML="
+}
+function buttonNTwentyFive(){
+  document.getElementById("demoFive").innerHTML="
+}
+function buttonTwentySix(){
+  document.getElementById("demoFive").innerHTML="
+}
+function buttonTwentySeven(){
+  document.getElementById("demoFive").innerHTML="
+}
+function buttonTwentyEight(){
+  document.getElementById("demoFive").innerHTML="
+}
+function buttonTwentyNine(){
+ document.getElementById("demoFive").innerHTML=" 
+}
+function buttonNThirty(){
+  document.getElementById("demoFive").innerHTML="
+}
+
+//February Notes
+function buttonThirtyOne(){
+  
+}
+function buttonThirtyTwo(){
+  
+}
+function buttonThirtyThree(){
+  
+}
+function buttonThirtyFour(){
+  
+}

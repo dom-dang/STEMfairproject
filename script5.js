@@ -73,3 +73,32 @@ function buttonNine(){
 function buttonTen(){
   document.getElementById("demoTwo").innerHTML="10/31/19 I finished taking notes on all my sources today! I probably will find more but I think I really understand deicing and the positive and negative effects of different deicers. Although I finished taking notes, I still have to copy my notes into my log notebook so I can keep track of my notes. Additionally, I have to finish my research plan and finalize (like actually finalize) all my numbers and details.";
 }
+
+//November notes
+function buttonEleven() {
+  document.getElementById("demoThree").innerHTML="Today I passed in my MSEF forms and research plan! I finalized everything and got all the forms filled out. After school, I updated my experimental Research section by adding a paragraph that includes my experimental questions and I added another section for hypothesis. I also finished copying all my notes into my logbook. The next step after I get back about my research plan is to gather materials and start conducting my experiments.";
+}
+function buttonTwelve(){
+  document.getElementById("demoThree").innerHTML=
+}
+function buttonThirteen(){
+  document.getElementById("demoThree").innerHTML=
+}
+
+
+//December notes 
+function buttonFourteen(){
+  document.getElementById("demoFour").innerHTML=
+}
+function buttonFifteen(){
+  document.getElementById("demoFour").innerHTML=
+}
+function buttonSixteen(){
+    document.getElementById("demoFour").innerHTML=
+}
+function buttonSeventeen(){
+    document.getElementById("demoFour").innerHTML=
+}
+function buttonEighteen(){
+    document.getElementById("demoFour").innerHTML=
+}

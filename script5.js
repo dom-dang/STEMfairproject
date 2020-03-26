@@ -91,7 +91,7 @@ function buttonFourteen(){
   document.getElementById("demoFour").innerHTML="I took all the edits Ms. Kymissis have me in my research paper and changed them in my paper. I think I am done with my paper but I want to check the rubric again to make suer I have everything a final time before submitting it. I updated my logbook as well so everything is set for the notebook check in a couple of weeks. I also have to start collecting all of my materials because I plan to start testing during Christmas break and I need to order materials online.";
 }
 function buttonFifteen(){
-  document.getElementById("demoFour").innerHTML=
+  document.getElementById("demoFour").innerHTML="Today I passed in my research paper that is due tomorrow. I was so happy to see that I got a 15% plagarism precentage because i was scared that I would be marked on something silly and get points deducted(although many silly things got flagged for plagarism). Iupdated my notebook for the logbook check tomorrow as well, finishing my notes and my table of contents. I have not been able to buy many of my materials because I need to find them online. The beet juice deicer came so I put that to the side. The CMA should be coming in a couple days so I will be waiting for that.";
 }
 function buttonSixteen(){
     document.getElementById("demoFour").innerHTML=

@@ -108,20 +108,20 @@ function buttonNineteen(){
   document.getElementById("demoFive").innerHTML="
 }
 function buttonTwenty(){
-  ddocument.getElementById("demoFive").innerHTML="
+  ddocument.getElementById("demoFive").innerHTML="1/2/2020 Today I redid my second experiment with a 10% concentration instead of 20% to see if the seeds with a chemical deicer could actualyl grow. I printed out some photos and my data tables for Set I but when looking at the graph, I realized that I could do more analyzing with teh data and make more graphs. I could make one display amount of water melted in 15 mintues for each deicer and make 3 in total for each set. This way, I could use error bars because in my previous graph, it is not fair to use error bars because each set has a different environment and slightly different times and error bars would not correctly convey the data. I am planning to continue working on photographs and observing the new set of seeds and hoping they will germinate.";
 }
 function buttonTwentyOne(){
-  document.getElementById("demoFive").innerHTML="
+  document.getElementById("demoFive").innerHTML="1/3/2020 I got new petri dishes to have a backup plan C and D. With these petridishes, they are smaller and have 6 wells. With them, I put soil and wet them with water and put a handful of seeds in them. After they start growing, i will water them with a solution of the deicer. It will by a 10% concentration and I will measure the number of days until the tips turn yellow. This experiment also shows the toxicity of the deicers on already grown grass. Additionally, I made new graphs with the first experiment. I graphed the amount of water melted in 30, 45, and 60 minutes for each set. Then with all of those graphs, I created a graph of all the different times so you can clearly see that beet jucie exceeds all the other deicers consistently from the beginning to the end. I did not put 15 minutes in becuase while I put 10mL of the solution in at the beginning, at 15 minutes, the amount of liquid measured was less than 10mL for the control and rock sand which messed up the data.";
 }
 
 function buttonTwentyTwo(){
-  ddocument.getElementById("demoFive").innerHTML="
+  ddocument.getElementById("demoFive").innerHTML="1/11/2020 Today I printed out the photographs and graphs and data tables for Set 1. I started to tape and cut them out, i also wrote my Analysis for mydata and I plant to print and tape in the required items for Set 2 and 3 soon. My second experiment is not going so well. Seeds are germinated in the control and rock sand but not for any of the chemical based deciers (again). Even with the lower and backup 5% concentration, none of the seeds are growing. The seeds in the backup backup plan are growing so I am ready to go to that plan if neccessary. Hopefully it does not come to that and I can get my experiment data for Set 1- Experiment II done before the due date.";
 }
 function buttonTwentyThree(){
-  document.getElementById("demoFive").innerHTML="
+  document.getElementById("demoFive").innerHTML="1/13/2020 Today I got the pictures, graphs, and data tables for Set 2 and 3 printed out. They were cut and taped into my notebook as well as my final graphs for Experiment I. I wrote captions for all of my graphs but I need to check if I need cpations for my data tables and an anlysis for Sets 2 and 3. I also started to work on my posterboard. I finished all the beginning slides, have not finished the anaylsis and conclusion, and added photos. my color scheme is not decided yet but I am thinking blue and black.";
 }
 function buttonTwentyFour(){
-  ddocument.getElementById("demoFive").innerHTML="
+  ddocument.getElementById("demoFive").innerHTML="1/19/2020 Today I worked on my slides for the posterboard. I added info to the conclusion and put all the data tables and graphs from the first Experiment. Some seeds sprouted from the mung bean test but not enough to count and record in my tables yet. I also decided my color scheme would be yellow (like the sun) and gray (like ice and soil) so I bought grey paper and I am ready to start printing out my slides (some of them) and planning where they will grow.";
 }
 function buttonNTwentyFive(){
   document.getElementById("demoFive").innerHTML="1/25/2020 12 days since I redid my germination experiment with a concentration of 0.0125, my grass grew! Granted, an issue I found was that the seeds were not being watered sufficiently so I watered them every other day. It was very obvious from observation that rock sand, control, and beet juice had the most growth, while NaCl and CaCl2 had little to no growth. It was really cool to see the other backups which was at 0.025 which had every petri dish with germinated seeds except NaCl and CaCl2 which showed how chemically bad those deicers are on the environment. I measured the grass length instead of the root length as it correlated more with the deicer. Tomorrow, I plan to make some graphs for the data I collect.";

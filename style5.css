@@ -107,32 +107,32 @@ ul {
 /*month header */
 
 .month {
-  padding: 40px 10px;
+  padding: 15px 0px;
   width: 100%;
   background: #1a8cff;
   text-align: center;
 }
 .monthTwo {
-  padding: 40px 10px;
+  padding: 15px 0px;
   width: 100%;
   background: #1a8cff;
   text-align: center;
 }
 .monthThree {
-  padding: 40px 10px;
+  padding: 15px 0px;
   width: 100%;
   background: #1a8cff;
   text-align: center;
 }
 
 .monthFour {
-  padding: 40px 10px;
+  padding: 15px 0px;
   width: 100%;
   background: #1a8cff;
   text-align: center;
 }
 
-/*month list */
+/*month lists */
 
 .month ul {
   margin: 0;
@@ -141,12 +141,47 @@ ul {
 
 .month ul li {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
-/* previous button inside month header */
+.monthTwo ul {
+  margin: 0;
+  padding: 0;
+}
+
+.monthTwo ul li {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.monthThree ul {
+  margin: 0;
+  padding: 0;
+}
+
+.monthThree ul li {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.monthFour ul {
+  margin: 0;
+  padding: 0;
+}
+
+.monthFour ul li {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+/* previous button inside month header 
 .cursor {
   cursor: pointer;
 }
@@ -164,7 +199,7 @@ ul {
   user-select: none;
   webkit-user-select: none;
 }
-/* next button */
+ next button
 .month .next {
   float: right;
   padding-top: 10px;
@@ -177,6 +212,7 @@ ul {
   user-select: none;
   webkit-user-select: none;
 }
+*/
 
 /* Weekdays (mon-sun) */
 .weekdays {

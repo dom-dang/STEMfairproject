@@ -6,9 +6,17 @@ body {
 }
 
 p {
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   font-size: 18px;
-  margin-right: 400px;
+  margin-right: 500px;
+  line-height: 1.5;
+  padding: 3px;
+}
+
+
+.paragraph {
+  font-family: 'Lora', serif;
+  font-size: 18px;
   margin-left: 300px;
   line-height: 1.5;
   padding: 3px;
@@ -299,3 +307,5 @@ ul {
   font-size: 16px;
 }
 */
+
+

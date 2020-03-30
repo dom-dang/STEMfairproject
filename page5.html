@@ -2,373 +2,391 @@
 <html lang="en">
   <head>
     <title>Deciding on Deicers</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style5.css">
-    
+    <link rel="stylesheet" href="/style5.css" />
+
     <!-- import the webpage's javascript file -->
     <script src="/script5.js" defer></script>
-  </head>  
-  
+  </head>
+
   <body>
-      <div class = "navbar">
-      <center> <a href ="index.html"> Main</a>
-      <a href="page2.html">Choosing a Project</a>
-      <a href = "page3.html"> Literary Research</a>
-      <div class = "dropdown">
-      <button class="dropbtn" onclick="myFunction()"> Experimental Research
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content" id="myDropdown">
-        <a href="page-Problem.html"> Problem & Variables</a>
-        <a href="page-Materials.html"> Materials & Procedure </a>
-        <a href="page-Data-Tables.html"> Data Tables & Graphs</a>
-        <a href="page-Analysis.html"> Analysis & Conclusion</a>
+    <div class="navbar">
+      <center>
+        <a href="index.html"> Main</a>
+        <a href="page2.html">Choosing a Project</a>
+        <a href="page3.html"> Literary Research</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">
+            Experimental Research
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="page-Problem.html"> Problem & Variables</a>
+            <a href="page-Materials.html"> Materials & Procedure </a>
+            <a href="page-Data-Tables.html"> Data Tables & Graphs</a>
+            <a href="page-Analysis.html"> Analysis & Conclusion</a>
+          </div>
         </div>
-      </div>
-      <a href = "page5.html"> Daily Logs </a> </center>
+        <a href="page5.html"> Daily Logs </a>
+      </center>
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        
+
     <h1>Daily Logs</h1>
-    <div class ="paragraph"> 
+    <div class="paragraph">
       <p>
-        Below are all the log entries I wrote in my logbook during the entire Science Fair process. The dates with buttons have information in them. 
+        Below are all the log entries I wrote in my logbook during the entire
+        Science Fair process. The dates with buttons have information in them.
       </p>
     </div>
-    
-    <div class="container"> 
-      
-      <div class ="month">
-      <ul>
-      <!--  <li class="prev"> &#10094;</li>
+
+    <div class="container">
+      <div class="month">
+        <ul>
+          <!--  <li class="prev"> &#10094;</li>
         <li class="next"> &#10095;</li> -->
-      <li> September <br> <span style ="font-size:20px"> 2019</span></li>
+          <li>
+            September <br />
+            <span style="font-size:20px"> 2019</span>
+          </li>
+        </ul>
+      </div>
+      <ul class="weekdays">
+        <li>Su</li>
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
       </ul>
-    </div>
-    <ul class ="weekdays">
-      <li>Su</li>
-      <li>Mo</li>
-      <li>Tu</li>
-      <li>We</li>
-      <li>Th</li>
-      <li>Fr</li>
-      <li>Sa</li>
-    </ul>
-    <ul class="days">
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-      <li> <button onclick="buttonOne()">9</button></li>
-      <li>10</li>
-      <li>11</li>
-      <li>12</li>
-      <li>13</li>
-      <li>14</li>
-      <li>15</li>
-      <li>16</li>
-      <li>17</li>
-      <li>18</li>
-      <li>19</li>
-      <li>20</li>
-      <li>21</li>
-      <li><button onclick="buttonTwo()">22</button></li>
-      <li>23</li>
-      <li><button onclick="buttonThree()"> 24</button></li>
-      <li>25</li>
-      <li>26</li>
-      <li>27</li>
-      <li><button onclick="buttonFour()">28</button></li>
-      <li>29</li>
-      <li>30</li>
-    </ul>
-    <br>
-    <p id="demo"> 
-      
-    <div class ="monthTwo">
-     <ul>
-        <!-- <li class="prev"> &#10094;</li>
+      <ul class="days">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li><button onclick="buttonOne()">9</button></li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li><button onclick="buttonTwo()">22</button></li>
+        <li>23</li>
+        <li><button onclick="buttonThree()">24</button></li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li><button onclick="buttonFour()">28</button></li>
+        <li>29</li>
+        <li>30</li>
+      </ul>
+      <br />
+      <p id="demo"></p>
+
+      <div class="monthTwo">
+        <ul>
+          <!-- <li class="prev"> &#10094;</li>
         <li class="next"> &#10095;</li> -->
-        <li> October <br> <span style ="font-size:20px"> 2019</span></li>
+          <li>
+            October <br />
+            <span style="font-size:20px"> 2019</span>
+          </li>
+        </ul>
+      </div>
+      <ul class="weekdays">
+        <li>Su</li>
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
       </ul>
-    </div>
-    <ul class ="weekdays">
-      <li>Su</li>
-      <li>Mo</li>
-      <li>Tu</li>
-      <li>We</li>
-      <li>Th</li>
-      <li>Fr</li>
-      <li>Sa</li>
-    </ul>
-    <ul class="days">
-      <li></li>
-      <li></li>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-      <li>9</li>
-      <li>10</li>
-      <li>11</li>
-      <li>12</li>
-      <li>13</li>
-      <li>14</li>
-      <li>15</li>
-      <li><button onclick="buttonFive()">16</button></li>
-      <li>17</li>
-      <li>18</li>
-      <li><button onclick="buttonSix()">19</button></li>
-      <li>20</li>
-      <li>21</li>
-      <li>22</li>
-      <li><button onclick="buttonSeven()">23</button></li>
-      <li>24</li>
-      <li>25</li>
-      <li>26</li>
-      <li>27</li>
-      <li><button onclick="buttonEight()">28</button></li>
-      <li><button onclick="buttonNine()">29</button></li>
-      <li>30</li>
-      <li><button onclick="buttonTen()">31</button></li>
-    </ul>
-    <br>
-    <p id="demoTwo"> </p>
-      
-      
-     <div class ="monthThree">
-      <ul>
-       <!-- <li class="prev"> &#10094;</li>
+      <ul class="days">
+        <li></li>
+        <li></li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li><button onclick="buttonFive()">16</button></li>
+        <li>17</li>
+        <li>18</li>
+        <li><button onclick="buttonSix()">19</button></li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li><button onclick="buttonSeven()">23</button></li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li><button onclick="buttonEight()">28</button></li>
+        <li><button onclick="buttonNine()">29</button></li>
+        <li>30</li>
+        <li><button onclick="buttonTen()">31</button></li>
+      </ul>
+      <br />
+      <p id="demoTwo"></p>
+
+      <div class="monthThree">
+        <ul>
+          <!-- <li class="prev"> &#10094;</li>
         <li class="next"> &#10095;</li> -->
-        <li> November <br> <span style ="font-size:20px"> 2019</span></li>
+          <li>
+            November <br />
+            <span style="font-size:20px"> 2019</span>
+          </li>
+        </ul>
+      </div>
+      <ul class="weekdays">
+        <li>Su</li>
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
       </ul>
-    </div>
-    <ul class ="weekdays">
-      <li>Su</li>
-      <li>Mo</li>
-      <li>Tu</li>
-      <li>We</li>
-      <li>Th</li>
-      <li>Fr</li>
-      <li>Sa</li>
-    </ul>
-    <ul class="days">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li><button onclick="buttonEleven()">4</button></li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-      <li>9</li>
-      <li>10</li>
-      <li>11</li>
-      <li>12</li>
-      <li>13</li>
-      <li><button onclick="buttonTwelve()">14</button></li>
-      <li>15</li>
-      <li>16</li>
-      <li><button onclick="buttonThirteen()">17</button></li>
-      <li>18</li>
-      <li>19</li>
-      <li>20</li>
-      <li>21</li>
-      <li>22</li>
-      <li>23</li>
-      <li>24</li>
-      <li>25</li>
-      <li>26</li>
-      <li>27</li>
-      <li>28</li>
-      <li>29</li>
-      <li>30</li>
-    </ul>
-    <br>
-    <p id="demoThree"> </p>  
-      
-    <div class ="monthFour">
-      <ul>
-       <!-- <li class="prev"> &#10094;</li>
+      <ul class="days">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li><button onclick="buttonEleven()">4</button></li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li><button onclick="buttonTwelve()">14</button></li>
+        <li>15</li>
+        <li>16</li>
+        <li><button onclick="buttonThirteen()">17</button></li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+      </ul>
+      <br />
+      <p id="demoThree"></p>
+
+      <div class="monthFour">
+        <ul>
+          <!-- <li class="prev"> &#10094;</li>
         <li class="next"> &#10095;</li> -->
-        <li> December <br> <span style ="font-size:20px"> 2019</span></li>
+          <li>
+            December <br />
+            <span style="font-size:20px"> 2019</span>
+          </li>
+        </ul>
+      </div>
+      <ul class="weekdays">
+        <li>Su</li>
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
       </ul>
-    </div>
-    <ul class ="weekdays">
-      <li>Su</li>
-      <li>Mo</li>
-      <li>Tu</li>
-      <li>We</li>
-      <li>Th</li>
-      <li>Fr</li>
-      <li>Sa</li>
-    </ul>
-    <ul class="days">
-      <li><button onclick="buttonFourteen()">1</button></li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-      <li>9</li>
-      <li>10</li>
-      <li>11</li>
-      <li>12</li>
-      <li>13</li>
-      <li>14</li>
-      <li><button onclick="buttonFifteen()">15</button></li>
-      <li>16</li>
-      <li>17</li>
-      <li>18</li>
-      <li>19</li>
-      <li>20</li>
-      <li>21</li>
-      <li>22</li>
-      <li>23</li>
-      <li><button onclick="buttonSixteen()">24</button></li>
-      <li><button onclick="buttonSeventeen()">25</button></li>
-      <li><button onclick="buttonEighteen()">26</button></li>
-      <li>27</li>
-      <li>28</li>
-      <li>29</li>
-      <li>30</li>
-      <li>31</li>
-    </ul>
-    <br>
-    <p id="demoFour"> </p>  
-      
-    <div class ="monthFive">
-      <ul>
-       <!-- <li class="prev"> &#10094;</li>
+      <ul class="days">
+        <li><button onclick="buttonFourteen()">1</button></li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li><button onclick="buttonFifteen()">15</button></li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li><button onclick="buttonSixteen()">24</button></li>
+        <li><button onclick="buttonSeventeen()">25</button></li>
+        <li><button onclick="buttonEighteen()">26</button></li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+        <li>31</li>
+      </ul>
+      <br />
+      <p id="demoFour"></p>
+
+      <div class="monthFive">
+        <ul>
+          <!-- <li class="prev"> &#10094;</li>
         <li class="next"> &#10095;</li> -->
-        <li> January <br> <span style ="font-size:20px"> 2020! </span></li>
+          <li>
+            January <br />
+            <span style="font-size:20px"> 2020! </span>
+          </li>
+        </ul>
+      </div>
+      <ul class="weekdays">
+        <li>Su</li>
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
       </ul>
-    </div>
-    <ul class ="weekdays">
-      <li>Su</li>
-      <li>Mo</li>
-      <li>Tu</li>
-      <li>We</li>
-      <li>Th</li>
-      <li>Fr</li>
-      <li>Sa</li>
-    </ul>
-    <ul class="days">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li><button onclick="buttonNineteen()">1</button></li>
-      <li><button onclick="buttonTwenty()">2</button></li>
-      <li><button onclick="buttonTwentyOne()">3</button></li>
-      <li>4</li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-      <li>9</li>
-      <li>10</li>
-      <li><button onclick="buttonTwentyTwo()">11</button></li>
-      <li>12</li>
-      <li><button onclick="buttonTwentyThree()">13</button></li>
-      <li>14</li>
-      <li>15</li>
-      <li>16</li>
-      <li>17</li>
-      <li>18</li>
-      <li><button onclick="buttonTwentyFour()">19</button></li>
-      <li>20</li>
-      <li>21</li>
-      <li>22</li>
-      <li>23</li>
-      <li>24</li>
-      <li><button onclick="buttonTwentyFive()">25</button></li>
-      <li><button onclick="buttonTwentySix()">26</button></li>
-      <li><button onclick="buttonTwentySeven()">27</button></li>
-      <li><button onclick="buttonTwentyEight()">28</button></li>
-      <li><button onclick="buttonTwentyNine()">29</button></li>
-      <li><button onclick="buttonThirty()">30</button></li>
-      <li>31</li>
-    </ul>
-    <br>
-    <p id="demoFive"> </p>  
-        
-      <div class ="monthSix">
-      <ul>
-       <!-- <li class="prev"> &#10094;</li>
+      <ul class="days">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li><button onclick="buttonNineteen()">1</button></li>
+        <li><button onclick="buttonTwenty()">2</button></li>
+        <li><button onclick="buttonTwentyOne()">3</button></li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li><button onclick="buttonTwentyTwo()">11</button></li>
+        <li>12</li>
+        <li><button onclick="buttonTwentyThree()">13</button></li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li><button onclick="buttonTwentyFour()">19</button></li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li><button onclick="buttonTwentyFive()">25</button></li>
+        <li><button onclick="buttonTwentySix()">26</button></li>
+        <li><button onclick="buttonTwentySeven()">27</button></li>
+        <li><button onclick="buttonTwentyEight()">28</button></li>
+        <li><button onclick="buttonTwentyNine()">29</button></li>
+        <li><button onclick="buttonThirty()">30</button></li>
+        <li>31</li>
+      </ul>
+      <br />
+      <p id="demoFive"></p>
+
+      <div class="monthSix">
+        <ul>
+          <!-- <li class="prev"> &#10094;</li>
         <li class="next"> &#10095;</li> -->
-        <li> February <br> <span style ="font-size:20px"> 2020 </span></li>
+          <li>
+            February <br />
+            <span style="font-size:20px"> 2020 </span>
+          </li>
+        </ul>
+      </div>
+      <ul class="weekdays">
+        <li>Su</li>
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
       </ul>
+      <ul class="days">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li><button onclick="buttonThirtyOne()">1</button></li>
+        <li><button onclick="buttonThirtyTwo()">2</button></li>
+        <li><button onclick="buttonThirtyThree()">3</button></li>
+        <li><button onclick="buttonThirtyFour()">4</button></li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+      </ul>
+      <br />
+      <p id="demoSix"></p>
     </div>
-    <ul class ="weekdays">
-      <li>Su</li>
-      <li>Mo</li>
-      <li>Tu</li>
-      <li>We</li>
-      <li>Th</li>
-      <li>Fr</li>
-      <li>Sa</li>
-    </ul>
-    <ul class="days">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li><button onclick="buttonThirtyOne()">1</button></li>
-      <li><button onclick="buttonThirtyTwo()">2</button></li>
-      <li><button onclick="buttonThirtyThree()">3</button></li>
-      <li><button onclick="buttonThirtyFour()">4</button></li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-      <li>9</li>
-      <li>10</li>
-      <li>11</li>
-      <li>12</li>
-      <li>13</li>
-      <li>14</li>
-      <li>15</li>
-      <li>16</li>
-      <li>17</li>
-      <li>18</li>
-      <li>19</li>
-      <li>20</li>
-      <li>21</li>
-      <li>22</li>
-      <li>23</li>
-      <li>24</li>
-      <li>25</li>
-      <li>26</li>
-      <li>27</li>
-      <li>28</li>
-      <li>29</li>
-    </ul>
-    <br>
-    <p id="demoSix"> </p>  
-     </div>
-  
-   
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->

@@ -316,10 +316,10 @@ ul {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #ffdb4d; /* Set a background color */
+  background-color: #1a8cff; /* Set a background color #ffdb4d */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 30px; /* Some padding */ 
+  padding: 25px; /* Some padding */ 
   font-size: 20px; /* Increase font size */
 }
 

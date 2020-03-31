@@ -230,38 +230,8 @@ ul {
 }
 
 
-/* previous button inside month header 
-.cursor {
-  cursor: pointer;
-}
 
-.month .prev {
-  float: left;
-  padding-top: 10px;
-  padding-top: 10px;
-  cursor: pointer;
-  top: 40%;
-  width: auto;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  user-select: none;
-  webkit-user-select: none;
-}
- next button
-.month .next {
-  float: right;
-  padding-top: 10px;
-  cursor: pointer;
-  top: 40%;
-  width: auto;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  user-select: none;
-  webkit-user-select: none;
-}
-*/
+
 
 /* Weekdays (mon-sun) */
 .weekdays {

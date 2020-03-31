@@ -50,7 +50,7 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-
+//gallery 2
 var slideIndexs = 1;
 showSlidess(slideIndexs);
 
@@ -67,7 +67,7 @@ function currentSlides(n) {
 function showSlidess(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides1");
-  var dots = document.getElementsByClassName("demo");
+  var dots = document.getElementsByClassName("demos");
   var captionText = document.getElementById("caption1");
   if (n > slides.length) {slideIndexs = 1}
   if (n < 1) {slideIndexs = slides.length}

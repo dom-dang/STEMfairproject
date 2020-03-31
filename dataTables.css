@@ -217,13 +217,13 @@ div a:hover:not(.active) {
 }
 
 /* Add a pointer when hovering over the thumbnail images */
-.cursor {
+.cursors {
   cursor: pointer;
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+.prevs,
+.nexts {
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -239,14 +239,14 @@ div a:hover:not(.active) {
 }
 
 /* Position the "next button" to the right */
-.next {
+.nexts {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.prevs:hover,
+.nexts:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -270,24 +270,24 @@ div a:hover:not(.active) {
   color: white;
 }
 
-.row:after {
+.rows:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Six columns side by side */
-.column {
+.columns {
   float: left;
   width: 16.66%;
 }
 
 /* Add a transparency effect for thumnbail images */
-.demo {
+.demos {
   opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.demos:hover {
   opacity: 1;
 }

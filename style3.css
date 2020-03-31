@@ -1,12 +1,11 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family:"Trebuchet MS";
   background:#f2f2f2;
 }
 
 p {
-  font-family: 'Lora', serif;
+  
   font-size: 18px;
   margin-right: 400px;
   margin-left: 300px;
@@ -14,9 +13,15 @@ p {
   padding: 3px;
 }
 
-.caption{
-  font-size: 10
+.caption {
+  font-size: 10px;
+  margin-right: 400px;
+  margin-left: 100px;
+  font-family: 'Lora', serif;
 }
+
+
+
 h1 {
   font-style: italic;
   color: #1a8cff;

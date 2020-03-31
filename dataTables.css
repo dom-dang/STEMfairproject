@@ -27,46 +27,7 @@ h3 {
 }
 
 
-.right-photos{
-  float: right;
-  padding: 5px;
-}
-.margin-photos{
-  margin-left:300px;
-  margin-right:400px;
-  padding: 5px;
-}
 
-.row2{
-  display: flex;
-  margin-left:300px;
-  margin-right:400px;
-}
-.column2{
-  flex: 50%;
-  padding: 5px; 
-}
-
-
-/* lists */
-ol {
-  font-family: 'Lora', serif;
-  font-size: 18px;
-  margin-right: 400px;
-  margin-left: 360px;
-  line-height: 1.5;
-  padding: 3px;
-}
-
-
-ul{
-  font-family: 'Lora', serif;
-  font-size: 18px;
-  margin-right: 400px;
-  margin-left: 150px;
-  line-height: 1.5;
-  padding: 3px;
-}
 
 
 /*navbar code */
@@ -151,7 +112,9 @@ div a:hover:not(.active) {
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
+  max-width: 900px;
   position: relative;
+  margin: auto;
 }
 
 /* Hide the images by default */
@@ -195,8 +158,9 @@ div a:hover:not(.active) {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
+  color: black;
+  font-size: 13px;
+  font-family:"Trebuchet MS";
   padding: 8px 12px;
   position: absolute;
   top: 0;

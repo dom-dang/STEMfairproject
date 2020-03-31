@@ -258,11 +258,9 @@ div a:hover:not(.active) {
 /*photo button fade thing */
 .container {
   position: relative;
+  float: right;
   width: 50%;
-}
-.container1 {
-  position: relative;
-  width: 50%;
+  display: flex;
 }
 
 .image {
@@ -288,21 +286,16 @@ div a:hover:not(.active) {
   opacity: 0.3;
 }
 
-.container1:hover .image {
-  opacity: 0.3;
-}
 
 .container:hover .middle {
-  opacity: 1;
-}
-.container1:hover .middle {
   opacity: 1;
 }
 
 
 .text {
-  background-color: #4CAF50;
+  background-color: #1a8cff;
   color: white;
+  margin-right:200px;
   font-size: 16px;
   padding: 16px 32px;
 }

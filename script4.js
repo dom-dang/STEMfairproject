@@ -49,3 +49,35 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+
+var slideIndexs = 1;
+showSlidess(slideIndexs);
+
+// Next/previous controls
+function plusSlidess(n) {
+  showSlidess(slideIndexs += n);
+}
+
+// Thumbnail image controls
+function currentSlides(n) {
+  showSlidess(slideIndexs = n);
+}
+
+function showSlidess(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption1");
+  if (n > slides.length) {slideIndexs = 1}
+  if (n < 1) {slideIndexs = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndexs-1].style.display = "block";
+  dots[slideIndexs-1].className += " active";
+  captionText.innerHTML = dots[slideIndexs-1].alt;
+}

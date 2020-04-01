@@ -263,6 +263,7 @@ div a:hover:not(.active) {
 /* Caption text */
 .text {
   color: black;
+  background-color:
   font-family:"Trebuchet MS";
   font-size: 13px;
   padding: 8px 12px;
@@ -315,6 +316,7 @@ div a:hover:not(.active) {
   from {opacity: .4}
   to {opacity: 1}
 }
+
 
 
 

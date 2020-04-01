@@ -18,7 +18,7 @@ window.onclick = function(e) {
   }
 };
 
-//gallery
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -35,52 +35,19 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
+  var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-//gallery 2
-var slideIndexs = 1;
-showSlidess(slideIndexs);
-
-// Next/previous controls
-function plusSlidess(n) {
-  showSlidess(slideIndexs += n);
-}
-
-// Thumbnail image controls
-function currentSlides(n) {
-  showSlidess(slideIndexs = n);
-}
-
-function showSlidess(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides1");
-  var dots = document.getElementsByClassName("demos");
-  var captionText = document.getElementById("caption1");
-  if (n > slides.length) {slideIndexs = 1}
-  if (n < 1) {slideIndexs = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndexs-1].style.display = "block";
-  dots[slideIndexs-1].className += " active";
-  captionText.innerHTML = dots[slideIndexs-1].alt;
-}
 
 
 //button
@@ -105,3 +72,7 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+
+

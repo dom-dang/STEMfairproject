@@ -34,11 +34,13 @@ h4{
   margin-left: 175px;
 }
 
-.row {
+/*.row {
   display:flex;
   margin-left: 175px;
   padding: 5px;
 }
+*/
+/* table code */
 table {
   font-family: 'Lora', serif;
   border-collapse: collapse;
@@ -67,6 +69,7 @@ tr:nth-child(odd){
 }
 
 
+/*navbar code */
 
 .navbar {
   overflow: hidden;

@@ -184,29 +184,29 @@ function buttonTwentySeven() {
 }
 function buttonTwentyEight() {
   document.getElementById("demoFive").innerHTML =
-    "1/28/2020 Today I printed out all the slides and started the trim and plan out my board. I realized that the data tables are twoo small and the graphs were too large so I have to reprint those out with the correct sizing. With so many tables and graphs, I have to cut down on the photos so i also have to make them a little smaller. I also finished my analysis, conlcusion, and abstract on googleDocs so I started to copy those into my logbook.";
+    "1/28/2020 Today I printed out all the slides and started to trim and plan out my board. I realized that the data tables are too small and the graphs were too large so I have to reprint those out with the correct sizing. With so many tables and graphs, I have to cut down on the photos so I have to make them a little smaller. I also finished my analysis, conclusion, and abstract on GoogleDocs so I started to copy those into my logbook.";
 }
 function buttonTwentyNine() {
   document.getElementById("demoFive").innerHTML =
-    "I reprinted out the photos and graphs so they fit in the center of the posterboard. I started to copy down the Abstract into my logbook. I also started mounting my photos and the small graphs on my construction paper and finished planning everything out. The left and right side panals are finalized so I taped everything down on the sides but I realized that the middle section was too much so I have to make some of the graphs smaller and the data tables smaller (so I can fit the data tables for Experiment II).";
+    "1/29/2020 I reprinted out the photos and graphs so they fit in the center of the posterboard. I started to copy down the Abstract into my logbook. I also started mounting my photos and the small graphs on my construction paper and finished planning everything out. The left and right side panels are finalized so I taped everything down on the sides but I realized that the middle section was too much so I have to make some of the graphs smaller and the data tables smaller (so I can fit the data tables for Experiment II).";
 }
 function buttonThirty() {
   document.getElementById("demoFive").innerHTML =
-    "1/30/2020 Today I finished copying everything into the experimental research section of my logbook. I also finished priting out the fixed graphs and Experiment II's data tables, I learned that they are too big compared to Experimental II's data tables so I have to reprint those (again). I need to finish my script (add conclusion and anaylsis) and start practicing my presentation.";
+    "1/30/2020 Today I finished copying everything into the experimental research section of my logbook. I also finished printing out the fixed graphs and Experiment II's data tables, I learned that they are too big compared to Experimental II's data tables so I have to reprint those (again). I need to finish my script (add conclusion and analysis) and start practicing my presentation.";
 }
 
 //February Notes
 function buttonThirtyOne() {
   document.getElementById("demoSix").innerHTML =
-    "2/1/2020 I finished my script today. I added the conclusion and data anyalysis and printed out the final script. I know i should not sound so rehearsed and scripted but I like having an outline to follow and to guide me through my presentation. I also looked for more photos to put on my board because with the smal;er data tables, I have more room for some photos of the testing. Tomorrow, I will finish the board and start practicing my presentation.";
+    "2/1/2020 I finished my script today. I added the conclusion and data analysis and printed out the final script. I know I should not sound so rehearsed and scripted but I like having an outline to follow and to guide me through my presentation. I also looked for more photos to put on my board because with the smaller data tables, I have more room for some photos of the testing. Tomorrow, I will finish the board and start practicing my presentation.";
 }
 function buttonThirtyTwo() {
   document.getElementById("demoSix").innerHTML =
-    "2/2/2020 Today I did a couple of retouchings on my board because I noticed a couple of bublles that popped up in some of the slides. I also redid the title so it looked more inline with each other and had less bubbles. I taped down all the final graphs and data tables and the column of photographs in the middle. i was not able to print out the photos for the extra space under the data tables so I will do that for tomorrow. I also practiced my presentation. Finally I did a notebook check for my logbook to see if everything is in my logbook.";
+    "2/2/2020 Today I did a couple of retouchings on my board because I noticed a couple of bubbles that popped up in some of the slides. I also redid the title so it looked more inline with each other and had less bubbles. I taped down all the final graphs and data tables and the column of photographs in the middle. I was not able to print out the photos for the extra space under the data tables so I will do that for tomorrow. I also practiced my presentation. Finally I did a notebook check for my logbook to see if everything is in my logbook.";
 }
 function buttonThirtyThree() {
   document.getElementById("demoSix").innerHTML =
-    "2/3/2020 Today I printed out the photos and the captions for my graphs and data tables (learned in class that I needed cpations for everything on my board). I taped all the cpations and new photost on my board, so my board is finally finished! I reread my abstract and I learned that I messed up my old and new versions of my hypothesis so I have to fix that before tomorrow when everything is due.";
+    "2/3/2020 Today I printed out the photos and the captions for my graphs and data tables (learned in class that I needed captions for everything on my board). I taped all the captions and new photos on my board, so my board is finally finished! I reread my abstract and I learned that I messed up my old and new versions of my hypothesis so I have to fix that before tomorrow when everything is due.";
 }
 function buttonThirtyFour() {
   document.getElementById("demoSix").innerHTML =

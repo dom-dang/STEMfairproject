@@ -116,7 +116,7 @@ div a:hover:not(.active) {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 900px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -134,9 +134,9 @@ div a:hover:not(.active) {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #1a8cff;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -150,14 +150,14 @@ div a:hover:not(.active) {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #aab9c8;
 }
 
 /* Caption text */
 .text {
-  color: black;
+  color: 	#2f32d0;
   font-family:"Trebuchet MS";
-  font-size: 13px;
+  font-size: 14px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;

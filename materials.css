@@ -10,8 +10,8 @@ body {
 p {
   font-family: 'Lora', serif;
   font-size: 18px;
-  margin-right: 200px;
-  margin-left: 200px;
+ margin-right: 175px;
+  margin-left: 175px;
   line-height: 1.5;
   padding: 2px;
 }
@@ -24,8 +24,8 @@ h1 {
 h3 {
   font-family:"Trebuchet MS";
   font-size: 20px;
-  margin-right: 400px;
-  margin-left: 300px;
+ margin-right: 175px;
+  margin-left: 175px;
 }
 
 
@@ -35,15 +35,15 @@ h3 {
   margin-right:300px;
 }
 .margin-photos{
-  margin-left:300px;
-  margin-right:400px;
+  margin-right: 175px;
+  margin-left: 175px;
   padding: 5px;
 }
 
 .row2{
   display: flex;
-  margin-left:300px;
-  margin-right:400px;
+ margin-right: 175px;
+  margin-left: 175px;
 }
 .column2{
   flex: 50%;
@@ -55,8 +55,8 @@ h3 {
 ol {
   font-family: 'Lora', serif;
   font-size: 18px;
-  margin-right: 400px;
-  margin-left: 360px;
+  margin-right: 175px;
+  margin-left: 175px;
   line-height: 1.5;
   padding: 3px;
 }
@@ -65,8 +65,8 @@ ol {
 ul{
   font-family: 'Lora', serif;
   font-size: 18px;
-  margin-right: 400px;
-  margin-left: 300px;
+margin-right: 175px;
+  margin-left: 175px;
   line-height: 1.5;
   padding: 3px;
 }
@@ -196,7 +196,7 @@ div a:hover:not(.active) {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #1a8cff;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -218,9 +218,8 @@ div a:hover:not(.active) {
 /* Caption text */
 .text {
   color: black;
-  background-color:
   font-family:"Trebuchet MS";
-  font-size: 13px;
+  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;

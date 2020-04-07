@@ -11,8 +11,8 @@ body {
 p {
   font-family: 'Lora', serif;
   font-size: 18px;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 175px;
+  margin-left: 175px;
   line-height: 1.5;
   padding: 3px;
 }
@@ -20,24 +20,24 @@ h1 {
   font-style: italic;
   color: #1a8cff;
   font-size: 30px;
-  margin-right: 200px;
+  margin-right: 175px;
 }
 h3 {
   font-family:"Trebuchet MS";
   font-size: 24px;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 175px;
+  margin-left: 175px;
 }
 
 h4{
   font-family:"Trebuchet MS";
   font-size: 19px;
- margin-right: 200px;
-  margin-left: 200px;
+ margin-right: 175px;
+  margin-left: 175px;
 }
 .image {
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 175px;
+  margin-left: 175px;
 }
 
 /*nav bar */

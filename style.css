@@ -155,9 +155,20 @@ div a:hover:not(.active) {
 
 /* Caption text */
 .text {
-  color: 	#2f32d0;
+  color: #107896;
   font-family:"Trebuchet MS";
-  font-size: 14px;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text1 {
+  color: black;
+  font-family:"Trebuchet MS";
+  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;

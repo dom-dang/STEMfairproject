@@ -3,6 +3,8 @@
 body {
   font-family:"Trebuchet MS";
   background:#f2f2f2;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 p {
@@ -11,9 +13,8 @@ p {
   margin-right: 400px;
   margin-left: 300px;
   line-height: 1.5;
-  padding: 2px;
+  padding: 3px;
 }
-
 h1 {
   font-style: italic;
   color: #1a8cff;
@@ -21,12 +22,17 @@ h1 {
 }
 h3 {
   font-family:"Trebuchet MS";
-  font-size: 20px;
+  font-size: 24px;
   margin-right: 400px;
   margin-left: 300px;
 }
 
-
+h4{
+  font-family:"Trebuchet MS";
+  font-size: 19px;
+  margin-right: 400px;
+  margin-left: 300px;
+}
 .right-photos{
   float: right;
   padding: 5px;

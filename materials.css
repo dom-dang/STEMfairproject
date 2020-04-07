@@ -3,6 +3,8 @@
 body {
   font-family:"Trebuchet MS";
   background:#f2f2f2;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 p {
@@ -30,6 +32,7 @@ h3 {
 .right-photos{
   float: right;
   padding: 5px;
+  margin-right:300px;
 }
 .margin-photos{
   margin-left:300px;
@@ -162,54 +165,6 @@ div a:hover:not(.active) {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
-}
-
-
-
-
-/*photo button fade thing */
-.container {
-  position: relative;
-  float: right;
-  width: 50%;
-  display: flex;
-}
-
-.image {
-  opacity: 1;
-  display: block;
-  width: 70%;
-  height: 70%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.container:hover .image {
-  opacity: 0.3;
-}
-
-
-.container:hover .middle {
-  opacity: 1;
-}
-
-
-.text {
-  background-color: #1a8cff;
-  color: white;
-  margin-right:100px;
-  font-size: 16px;
-  padding: 16px 16px;
 }
 
 

@@ -3,23 +3,24 @@
 body {
   font-family: "Trebuchet MS";
   background: #f2f2f2;
-  text-align: justify;
-  text-justify: inter-word;
+  
 }
 
 p {
   font-family: 'Lora', serif;
   font-size: 18px;
-  margin-right: 500px;
   line-height: 1.5;
+  margin-right:500px;
   padding: 3px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 
 .paragraph {
   font-family: 'Lora', serif;
   font-size: 18px;
-  margin-left: 300px;
+  margin-left: 200px;
   line-height: 1.5;
   padding: 3px;
 }

@@ -231,6 +231,7 @@ div a:hover:not(.active) {
 .numbertext {
   color: black;
   font-size: 13px;
+  margin-left: 40px;
   font-family:"Trebuchet MS";
   padding: 8px 12px;
   position: absolute;

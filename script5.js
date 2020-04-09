@@ -69,12 +69,12 @@ function buttonOne() {
 
 function buttonTwo() {
   document.getElementById("demo").innerHTML =
-    "9/22/19 9/22/19 I worked on my project proposal today because it is due in a week from tomorrow. I managed to finish it in 2 pages which I am proud of because it is short and precise. I am worried that my writing is not professional so I making sure I check and edit my paper over multiple times by multiple people so see if it is presentable. I plan to pass in my proposal early so I can start on other goals like writing out the variables and finalizing my procedure and materials.";
+    "9/22/19 I worked on my project proposal today because it is due in a week from tomorrow. I managed to finish it in 2 pages which I am proud of because it is short and precise. I am worried that my writing is not professional so I making sure I check and edit my paper over multiple times by multiple people so see if it is presentable. I plan to pass in my proposal early so I can start on other goals like writing out the variables and finalizing my procedure and materials.";
 }
 
 function buttonThree() {
   document.getElementById("demo").innerHTML =
-    "9/24/19 9/24/19 Today in class, we worked on our proposals. I haven't got the chance to ask Mrs. Kymissis about my project yet so that is my goal for the upcoming weeks. I finished my proposal after receiving edits from my mother and sister. I spent this afternoon copying my proposal into my notebook and I still have to fix some grammatical errors I found when copying over. After I pass into my paper (some time this week) I need to start researching the types of deicers and their costs and availability.";
+    "9/24/19 Today in class, we worked on our proposals. I haven't got the chance to ask Mrs. Kymissis about my project yet so that is my goal for the upcoming weeks. I finished my proposal after receiving edits from my mother and sister. I spent this afternoon copying my proposal into my notebook and I still have to fix some grammatical errors I found when copying over. After I pass into my paper (some time this week) I need to start researching the types of deicers and their costs and availability.";
 }
 
 function buttonFour() {
@@ -85,7 +85,7 @@ function buttonFour() {
 //October notes
 function buttonFive() {
   document.getElementById("demoTwo").innerHTML =
-    "10/16/19 II got my proposal back today and I got approved! Mrs. Kymissis recommended doing only one experiment but I think that is too simple. I want to try doing two experiments. The only constraint is money because certain deicers are expensive. Beet juice and rock sand is cheap on Amazon and I use salt normally during snow storms. CMA is very expensive ($30 a bag) so hopefully I can find something cheaper. The next step is to type out my hypothesis, controls, variables, and procedure. I already went in-depth for my procedure in my proposal so I just have to put it in number format and add a little bit more detail. After I finish that, I am going to start researching and finding papers to read.";
+    "10/16/19 I got my proposal back today and I got approved! Mrs. Kymissis recommended doing only one experiment but I think that is too simple. I want to try doing two experiments. The only constraint is money because certain deicers are expensive. Beet juice and rock sand is cheap on Amazon and I use salt normally during snow storms. CMA is very expensive ($30 a bag) so hopefully I can find something cheaper. The next step is to type out my hypothesis, controls, variables, and procedure. I already went in-depth for my procedure in my proposal so I just have to put it in number format and add a little bit more detail. After I finish that, I am going to start researching and finding papers to read.";
 }
 function buttonSix() {
   document.getElementById("demoTwo").innerHTML =
@@ -105,7 +105,7 @@ function buttonNine() {
 }
 function buttonTen() {
   document.getElementById("demoTwo").innerHTML =
-    "10/31/19 II finished taking notes on all my sources today! I probably will find more but I think I really understand deicing and the positive and negative effects of different deicers. Although I finished taking notes, I still have to copy my notes into my log notebook so I can keep track of my notes. Additionally, I have to finish my research plan and finalize (like actually finalize) all my numbers and details.";
+    "10/31/19 I finished taking notes on all my sources today! I probably will find more but I think I really understand deicing and the positive and negative effects of different deicers. Although I finished taking notes, I still have to copy my notes into my log notebook so I can keep track of my notes. Additionally, I have to finish my research plan and finalize (like actually finalize) all my numbers and details.";
 }
 
 //November notes
@@ -133,7 +133,7 @@ function buttonFifteen() {
 }
 function buttonSixteen() {
   document.getElementById("demoFour").innerHTML =
-    "12/24/19  I started testing today after I gathered all my materials. I first made all the solutions of the deicers and cut the filter paper to fit the petri dishes. After putting 3 filter papers in each one, I changed the amount of solution to 5 ml. Then I put the seeds and finished doing 3 sets of Experiment II. I froze 100ml of water last night and took them out to put 10 ml of solution on the ice. Measuring temperature was not effective so I continued my original plan to measure liquid melting after specific benchmarks (15 minutes). When I finished the first set, I froze more water to test set 2 for tomorrow.";
+    "12/24/19 I started testing today after I gathered all my materials. I first made all the solutions of the deicers and cut the filter paper to fit the petri dishes. After putting 3 filter papers in each one, I changed the amount of solution to 5 ml. Then I put the seeds and finished doing 3 sets of Experiment II. I froze 100ml of water last night and took them out to put 10 ml of solution on the ice. Measuring temperature was not effective so I continued my original plan to measure liquid melting after specific benchmarks (15 minutes). When I finished the first set, I froze more water to test set 2 for tomorrow.";
 }
 function buttonSeventeen() {
   document.getElementById("demoFour").innerHTML =

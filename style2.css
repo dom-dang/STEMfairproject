@@ -36,7 +36,7 @@ h4{
 
 .navbar {
   overflow: hidden;
-  background-color: #ffdb4d;
+  background-color: #66b3ff;
   font-family: "Lora", serif;
 }
 
@@ -69,7 +69,7 @@ h4{
 .navbar a:hover,
 .dropdown:hover .dropbtn,
 .dropbtn:focus {
-  background-color: #ffe680;
+  background-color: #1a8cff;
 }
 
 .dropdown-content {
@@ -91,7 +91,7 @@ h4{
   text-align: left;
 }
 div a:hover:not(.active) {
-  background: #ffe680;
+  background: #1a8cff;
 }
 .active {
   background: #aab9c8;

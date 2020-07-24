@@ -1,20 +1,7 @@
-Welcome to my science fair project!
+Massachusetts State Science and Engineering Fair 2020
 =================
-
-Click `Show` in the header to see the website live.
-
-
-
-
 
 Deciding on Deicers: Measuring the Efficiency of Deicers and Their Effects on the Environment 
 ------------
-
-
-Made by [Glitch](https://glitch.com/)
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about). 
--------------------
+I created a website for the virtual judging so I could explain my topic in more dept. I received an Honorable Mention for my award.
 

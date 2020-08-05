@@ -6,4 +6,4 @@ Deciding on Deicers: Measuring the Efficiency of Deicers and Their Effects on th
 ------------
 I created a website using Glitch for the virtual judging so I could explain my topic in more detail. I received an Honorable Mention for my award.
 
-*November 2019 - March 2020 *
+*November 2019 - March 2020*

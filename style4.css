@@ -1,14 +1,13 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family:"Trebuchet MS";
-  background:#f2f2f2;
+  font-family: 'Roboto Slab', serif;
+  background: #f2f2f2;
   text-align: justify;
   text-justify: inter-word;
 }
 
 p {
-  font-family: 'Lora', serif;
   font-size: 18px;
   margin-right: 175px;
   margin-left: 175px;
@@ -19,44 +18,41 @@ h1 {
   font-style: italic;
   color: #1a8cff;
   font-size: 30px;
+  text-align: center;
 }
 h3 {
-  font-family:"Trebuchet MS";
   font-size: 24px;
   margin-right: 175px;
   margin-left: 175px;
 }
 
-h4{
-  font-family:"Trebuchet MS";
+h4 {
   font-size: 19px;
- margin-right: 175px;
+  margin-right: 175px;
   margin-left: 175px;
 }
-.right-photos{
+.right-photos {
   float: right;
   padding: 5px;
 }
-.margin-photos{
- margin-right: 175px;
+.margin-photos {
+  margin-right: 175px;
   margin-left: 175px;
   padding: 5px;
 }
 
-.row2{
+.row2 {
   display: flex;
   margin-right: 175px;
   margin-left: 175px;
 }
-.column2{
+.column2 {
   flex: 50%;
-  padding: 5px; 
+  padding: 5px;
 }
-
 
 /* lists */
 ol {
-  font-family: 'Lora', serif;
   font-size: 18px;
   margin-right: 175px;
   margin-left: 175px;
@@ -64,23 +60,19 @@ ol {
   padding: 3px;
 }
 
-
-ul{
-  font-family: 'Lora', serif;
+ul {
   font-size: 18px;
   margin-right: 175px;
   margin-left: 175px;
   line-height: 1.5;
   padding: 3px;
 }
-
 
 /*navbar code */
 
 .navbar {
   overflow: hidden;
   background-color: #66b3ff;
-  font-family: 'Lora', serif
 }
 
 .navbar a {
@@ -99,7 +91,7 @@ ul{
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 20px;  
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -109,7 +101,9 @@ ul{
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
   background-color: #1a8cff;
 }
 
@@ -118,7 +112,7 @@ ul{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -133,10 +127,10 @@ ul{
 }
 
 div a:hover:not(.active) {
-    background:#1a8cff;
+  background: #1a8cff;
 }
-.active{
-    background:#aab9c8;
+.active {
+  background: #aab9c8;
 }
 
 .dropdown-content a:hover {
@@ -146,8 +140,6 @@ div a:hover:not(.active) {
 .show {
   display: block;
 }
-
-
 
 /*image gallery */
 
@@ -238,7 +230,6 @@ div a:hover:not(.active) {
   opacity: 1;
 }
 
-
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -250,17 +241,10 @@ div a:hover:not(.active) {
   background-color: #1a8cff; /* Set a background color #ffdb4d */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 25px; /* Some padding */ 
+  padding: 25px; /* Some padding */
   font-size: 20px; /* Increase font size */
 }
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-
-
-
-
-
-
-

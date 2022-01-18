@@ -1,16 +1,15 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family:"Trebuchet MS";
+  font-family: 'Roboto Slab', serif;
   background:#f2f2f2;
   text-align: justify;
   text-justify: inter-word;
 }
 
 p {
-  font-family: 'Lora', serif;
   font-size: 18px;
- margin-right: 175px;
+  margin-right: 175px;
   margin-left: 175px;
   line-height: 1.5;
   padding: 2px;
@@ -20,9 +19,10 @@ h1 {
   font-style: italic;
   color: #1a8cff;
   font-size: 30px;
+  text-align: center;
 }
 h3 {
-  font-family:"Trebuchet MS";
+
   font-size: 20px;
  margin-right: 175px;
   margin-left: 175px;
@@ -53,7 +53,6 @@ h3 {
 
 /* lists */
 ol {
-  font-family: 'Lora', serif;
   font-size: 18px;
   margin-right: 175px;
   margin-left: 175px;
@@ -63,7 +62,6 @@ ol {
 
 
 ul{
-  font-family: 'Lora', serif;
   font-size: 18px;
 margin-right: 175px;
   margin-left: 175px;
@@ -271,8 +269,3 @@ div a:hover:not(.active) {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
-
-
-

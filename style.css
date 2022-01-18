@@ -1,15 +1,13 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family:"Trebuchet MS";
-  background:#f2f2f2;
+  font-family: 'Roboto Slab', serif;
+  background: #f2f2f2;
   text-align: justify;
   text-justify: inter-word;
-  
 }
 
 p {
-  font-family: 'Lora', serif;
   font-size: 18px;
   margin-right: 175px;
   margin-left: 175px;
@@ -21,18 +19,17 @@ h1 {
   color: #1a8cff;
   font-size: 30px;
   margin-right: 175px;
+  text-align: center;
 }
 h3 {
-  font-family:"Trebuchet MS";
   font-size: 24px;
   margin-right: 175px;
   margin-left: 175px;
 }
 
-h4{
-  font-family:"Trebuchet MS";
+h4 {
   font-size: 19px;
- margin-right: 175px;
+  margin-right: 175px;
   margin-left: 175px;
 }
 .image {
@@ -44,7 +41,6 @@ h4{
 .navbar {
   overflow: hidden;
   background-color: #66b3ff;
-  font-family: 'Lora', serif;
 }
 
 .navbar a {
@@ -63,7 +59,7 @@ h4{
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 20px;  
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -73,7 +69,9 @@ h4{
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
   background-color: #1a8cff;
 }
 
@@ -82,7 +80,7 @@ h4{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -96,11 +94,11 @@ h4{
   text-align: left;
 }
 div a:hover:not(.active) {
-    background:#1a8cff; 
+  background: #1a8cff;
 }
-.active{
-    background:#aab9c8;
-} 
+.active {
+  background: #aab9c8;
+}
 .dropdown-content a:hover {
   background-color: #ddd;
 }
@@ -109,10 +107,11 @@ div a:hover:not(.active) {
   display: block;
 }
 
-
 /* photo gallery */
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -127,7 +126,8 @@ div a:hover:not(.active) {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -149,14 +149,14 @@ div a:hover:not(.active) {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
   background-color: #aab9c8;
 }
 
 /* Caption text */
 .text {
   color: #107896;
-  font-family:"Trebuchet MS";
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -167,7 +167,6 @@ div a:hover:not(.active) {
 
 .text1 {
   color: black;
-  font-family:"Trebuchet MS";
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -180,7 +179,6 @@ div a:hover:not(.active) {
 .numbertext {
   color: black;
   font-size: 13px;
-  font-family:"Trebuchet MS";
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -192,13 +190,14 @@ div a:hover:not(.active) {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #ced4da;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -211,15 +210,22 @@ div a:hover:not(.active) {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
- 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -232,10 +238,10 @@ div a:hover:not(.active) {
   background-color: #1a8cff; /* Set a background color #ffdb4d */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 25px; /* Some padding */ 
+  padding: 25px; /* Some padding */
   font-size: 20px; /* Increase font size */
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #5555; /* Add a dark-grey background on hover */
 }

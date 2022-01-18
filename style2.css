@@ -1,14 +1,13 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family:"Trebuchet MS";
+  font-family: 'Roboto Slab', serif;
   background:#f2f2f2;
   text-align: justify;
   text-justify: inter-word;
 }
 
 p {
-  font-family: 'Lora', serif;
   font-size: 18px;
   margin-right: 175px;
   margin-left: 175px;
@@ -19,16 +18,15 @@ h1 {
   font-style: italic;
   color: #1a8cff;
   font-size: 30px;
+  text-align: center;
 }
 h3 {
-  font-family:"Trebuchet MS";
   font-size: 24px;
   margin-right: 175px;
   margin-left: 175px;
 }
 
 h4{
-  font-family:"Trebuchet MS";
   font-size: 19px;
  margin-right: 175px;
   margin-left: 175px;
@@ -37,7 +35,6 @@ h4{
 .navbar {
   overflow: hidden;
   background-color: #66b3ff;
-  font-family: "Lora", serif;
 }
 
 .navbar a {
